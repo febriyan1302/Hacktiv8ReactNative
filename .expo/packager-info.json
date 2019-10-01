@@ -1,10 +1,10 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 96601,
-  "expoServerNgrokUrl": "https://hc-qtp.anonymous.hacktiv8reactnative.exp.direct",
-  "packagerNgrokUrl": "https://packager.hc-qtp.anonymous.hacktiv8reactnative.exp.direct",
-  "ngrokPid": 96635,
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
   "webpackServerPort": null
 }
