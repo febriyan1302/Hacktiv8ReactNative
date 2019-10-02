@@ -38,6 +38,8 @@ target 'FirstProject' do
 
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
+  pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
+
   target 'FirstProjectTests' do
     inherit! :search_paths
     # Pods for testing
