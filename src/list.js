@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Text, View, Button} from 'react-native';
-
+import Budaya from "./rest_budaya";
 export default class List extends Component {
 
     onButtonPress = () => {
@@ -11,14 +11,7 @@ export default class List extends Component {
     render() {
         return(
             <View>
-                <Text>
-                    Ini List
-                </Text>
-
-                <Button
-                    title="Back to Home"
-                    onPress = { this.onButtonPress }
-                />
+                <Budaya />
             </View>
         );
     };

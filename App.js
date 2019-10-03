@@ -1,15 +1,18 @@
 import React, {Component} from 'react';
 import { Text, View, StyleSheet} from 'react-native';
 import { createAppContainer } from 'react-navigation';
-import { Drawer } from  './src/config/routes';
+import { Drawer, TabNavigation, BottomTabNavigation, StackNavigator } from  './src/config/routes';
 
-const NavPage = createAppContainer(Drawer);
+const NavPage = createAppContainer(TabNavigation);
+const BottomNavPage = createAppContainer(BottomTabNavigation);
+const TopStackNavigator = createAppContainer(StackNavigator);
 
 export default class App extends Component{
   render(){
     return(
       <View style={styles.container}>
-        <NavPage />
+        {/*<TopStackNavigator />*/}
+        <BottomNavPage />
       </View>
     )
   }
